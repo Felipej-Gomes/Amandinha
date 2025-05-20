@@ -61,6 +61,7 @@ aside video {
   height: auto;
   border: 2px solid white;
   border-radius: 8px;
+  
 }
 
 .video {
@@ -69,6 +70,9 @@ aside video {
   max-width: 100%;
   border-radius: 10px;
   background-color: #B89FD2;
+  border-width: 2px;
+  border-style: solid;
+  border-color: azure;
 }
 
 figure.logo img {
@@ -78,9 +82,7 @@ figure.logo img {
   
 }
 
-figure.logo img:hover {
-  box-shadow: 0 0 6px #00e0ff;
-}
+
 
 .logo {
   margin-top: 100px; 
